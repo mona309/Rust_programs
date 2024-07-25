@@ -14,23 +14,16 @@ fn main() {
     let x=6;
     println!("Number is {x}");
     // works prints both num is 5 and num is 6
-    */
     
-    
-    /*
     let mut x = 5;
     println!("The value of x is: {x}");
     x = 6;
     println!("The value of x is: {x}");
 	//works prints both
-    */
     
-    /*
     const 3hrINsec:u32=60*60*3;
     // y easier to calcualte than store??
-    */
     
-    /*
     //shadowing
     let x=5;
     let x=x+1;
@@ -39,9 +32,7 @@ fn main() {
     	println!("{x}");		//12
     }
     println!("{x}");		//6
-    */
     
-    /*
     let spaces="    ";			//str type
     let spaces=spaces.len();		//num type
     //counts number of spaces
@@ -49,7 +40,7 @@ fn main() {
     let mut spaces="    ";			
     spaces=spaces.len();
     //logically same but due to type differnec mutability not possible
-    */
+    
  
  
 //DATA TYPES
@@ -77,7 +68,7 @@ fn main() {
 	/*	IEEE-754 standard
 	let x=2.0; 		//f64
 	let y:f32=3.0		//f32
-	*/
+	
 	//numeric operation
 	/*
     let sum = 5 + 10;
@@ -85,7 +76,7 @@ fn main() {
     let product = 4 * 30;
     let quotient = 56.7 / 32.2;
     let truncated = -5 / 3; 		// Results in -1
-    let remainder = 43 % 5;*/
+    let remainder = 43 % 5;
     //boolean
     //let t=true; or let f:bool=false;
     //character SINGLE QUOTES	4 bytes unicode scalar so accepts more than normal
